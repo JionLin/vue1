@@ -1,0 +1,15 @@
+{
+    "responseCode": "000000",
+    "responseMsg": "成功-mock",
+    "result": [
+      {
+        "userId": "123456789",
+        "userName": "test1",
+        "passCode": "123456",
+        "rolesList": [],
+        "crearedDate": "2022-03-12 12:23:43",
+        "updateDate": "2022-03-12 12:23:4"
+      }
+    ],
+    "total": 1
+}

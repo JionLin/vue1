@@ -1,0 +1,49 @@
+@import '~ant-design-vue/dist/antd.less'; 
+// 重置主题样式
+// @primary-color: #1DA57A;
+
+// 需要修改重置的样式
+.ant-layout-header{
+    // background-color: @default-bg;
+  padding: 0px 40px 0px 20px;
+}
+.ant-layout-sider-trigger{
+    margin-bottom: 20px;
+  //   margin: 20px 10px;
+}
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item .ant-menu-item-icon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item .anticon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item .ant-menu-item-icon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item .anticon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-item-icon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title .anticon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-item-icon+span,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-submenu>.ant-menu-submenu-title .anticon+span{
+  display: inline-block;
+  opacity: 0;
+}
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item .anticon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item .anticon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title .anticon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-submenu>.ant-menu-submenu-title .anticon{
+    margin: 0;
+    font-size: 16px;
+    line-height: 40px;
+}
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-submenu>.ant-menu-submenu-title{
+    padding: 0 calc(50% - 16px / 2);
+    text-overflow: clip;
+}
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item .ant-menu-submenu-arrow,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-item .ant-menu-submenu-arrow,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-item-group>.ant-menu-item-group-list>.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-submenu-arrow,
+.ant-menu.ant-menu-inline-collapsed>div>.ant-menu-submenu>.ant-menu-submenu-title .ant-menu-submenu-arrow{
+    opacity: 0;
+}

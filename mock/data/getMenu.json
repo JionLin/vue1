@@ -1,0 +1,25 @@
+{
+    "responseCode": "000000",
+    "responseMsg": "成功-mock",
+    "result": [
+      {
+        "title": "首页",
+        "key": "demoTest",
+        "path": "/demo",
+        "icon": "PieChartOutlined"
+      },
+      {
+        "title": "系统管理",
+        "key": "admin",
+        "path": "/admin",
+        "icon": "UserOutlined",
+        "children": [
+          {
+            "title": "用户管理",
+            "key": "userManagement",
+            "path": "/admin/userManagement"
+          }
+        ]
+      }
+    ]
+}
