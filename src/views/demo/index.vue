@@ -21,9 +21,9 @@ export default defineComponent({
 
         } as DataParam)
         onMounted(() => {
-            const e = forgeEncrypt('1234')
+            const e = rsaEncrypt('12345')
             // const e = "wqPDhTPCkH7DjWFww4oJdsOcw7Riw7tVYMO+asOlHi8/I0RbC8KdR33CrcKGwpRMawASw6vDnsKdbcOmw6TCgDRACWfCnMOLQ8KVcsORw654w5TCtsKSwo3CrATCu3k6ZUEKwpHCi8KiwrxrCC3DjcObT8Ouw79bFMKDwrJuS8KzwrJSM8ODwqXCpMOTdMKITTvCn17CscOhwpQGwpnCtFsOTxTClMKcw7XCtEFKw70iI1HCssOnw5nDtEDDscKWw74Awo9pdcK6XsKsQV/DlEPCmC/CnH0eT8Oxw5vCkQQnC0rCuMKLfRccwp1Se8Oww4FAw5HDusOAw4cVw6dGQg3DkCHCnsKPPh0Sw5VmEcKEw7dRwrLDlEdpwqrDoMKOw7ZlewfDpgtyE8Oww67CksONwoUMwp/ClsK4wpHDogpjw7A9ZsOgScKJw4rDuBfDvcKbQcKVwpbCtsKFSMKtBVvDh8OhVU0DwpfDlcO7KsOmMsOoNU3CqSPDhsOjw77Cu8OeLxU="
-            const d = forgeDecrypt(e)
+            const d = rsaDecrypt(e)
             console.log('加密串：', e)
             console.log('解密得：', d)
             // console.log(rsaDecrypt(e))
